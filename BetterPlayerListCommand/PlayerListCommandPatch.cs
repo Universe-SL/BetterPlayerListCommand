@@ -16,7 +16,7 @@ public static class PlayerListCommandPatch
     {
         if (ReferenceHub.LocalHub == null)
         {
-            response = "The Dedicated Server is not connected or crashed.";
+            response = "The Dedicated Server is not connected or the server crashed.";
             return false;
         }
 
